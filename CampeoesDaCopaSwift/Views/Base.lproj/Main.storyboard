@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bls-8G-EbH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Winners Table View Controller-->
+        <scene sceneID="iOE-Fe-oVA">
+            <objects>
+                <tableViewController id="hhG-6s-MYM" customClass="WinnersTableViewController" customModule="CampeoesDaCopaSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4WZ-Sb-33u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="GEC-ee-Kx1">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="138"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="N8r-8d-uh3">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="138"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="N8r-8d-uh3" secondAttribute="bottom" id="H9r-1f-mRm"/>
+                                <constraint firstAttribute="trailing" secondItem="N8r-8d-uh3" secondAttribute="trailing" id="IXG-5Z-BXl"/>
+                                <constraint firstItem="N8r-8d-uh3" firstAttribute="top" secondItem="GEC-ee-Kx1" secondAttribute="top" id="khM-c1-3M0"/>
+                                <constraint firstItem="N8r-8d-uh3" firstAttribute="leading" secondItem="GEC-ee-Kx1" secondAttribute="leading" id="sp7-Lm-FFF"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="144" id="C6V-X6-Pta">
+                                <rect key="frame" x="0.0" y="166" width="414" height="144"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C6V-X6-Pta" id="YwX-zk-x5F">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="144"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="RMe-VD-axS">
+                                            <rect key="frame" x="26" y="11" width="22" height="22"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="22" id="pl4-wR-EVh"/>
+                                                <constraint firstAttribute="width" constant="22" id="u7K-ru-lGf"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="RMe-VD-axS" firstAttribute="top" secondItem="YwX-zk-x5F" secondAttribute="topMargin" id="Kff-gU-nsX"/>
+                                        <constraint firstItem="RMe-VD-axS" firstAttribute="leading" secondItem="YwX-zk-x5F" secondAttribute="leadingMargin" constant="6" id="LR3-E4-CDt"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="hhG-6s-MYM" id="LYm-Jf-CDU"/>
+                            <outlet property="delegate" destination="hhG-6s-MYM" id="C9I-ay-uFs"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="rKK-Rg-DiN"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="61U-Tl-XMU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943.47826086956525" y="42.857142857142854"/>
+        </scene>
+        <!--World Cup View Controller-->
+        <scene sceneID="BfG-ct-8jQ">
+            <objects>
+                <viewController id="1bo-tK-huh" customClass="WorldCupViewController" customModule="CampeoesDaCopaSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w9I-D0-yH4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="OUV-w0-9Yd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="37H-zq-15j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1650.7246376811595" y="42.857142857142854"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4hu-MV-sPf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bls-8G-EbH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yMC-rw-DzN">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hhG-6s-MYM" kind="relationship" relationship="rootViewController" id="fKG-A1-vf3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ikw-8S-2xY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="43"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calendar" width="56" height="56"/>
+        <image name="header" width="1200" height="514"/>
+    </resources>
+</document>
