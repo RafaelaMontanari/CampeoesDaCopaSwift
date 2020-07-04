@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8435599024AD494400EB5D64 /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435598F24AD494400EB5D64 /* WorldCupTableViewCell.swift */; };
+		8435599224B0D76500EB5D64 /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435599124B0D76500EB5D64 /* GamesTableViewCell.swift */; };
+		8435599424B1057900EB5D64 /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 8435599324B1057900EB5D64 /* winners.json */; };
 		847B04B424ABD25200B96CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B04B324ABD25200B96CAE /* AppDelegate.swift */; };
 		847B04B624ABD25200B96CAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B04B524ABD25200B96CAE /* SceneDelegate.swift */; };
 		847B04BB24ABD25200B96CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847B04B924ABD25200B96CAE /* Main.storyboard */; };
@@ -61,14 +64,16 @@
 		847B052724ABD36E00B96CAE /* Costa Rica.png in Resources */ = {isa = PBXBuildFile; fileRef = 847B04F624ABD36E00B96CAE /* Costa Rica.png */; };
 		847B052824ABD36E00B96CAE /* Honduras.png in Resources */ = {isa = PBXBuildFile; fileRef = 847B04F724ABD36E00B96CAE /* Honduras.png */; };
 		847B052924ABD36E00B96CAE /* Dinamarca.png in Resources */ = {isa = PBXBuildFile; fileRef = 847B04F824ABD36E00B96CAE /* Dinamarca.png */; };
-		847B052B24ABD38C00B96CAE /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 847B052A24ABD38C00B96CAE /* winners.json */; };
 		847B053024ABD5D700B96CAE /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B052F24ABD5D700B96CAE /* WinnersTableViewController.swift */; };
 		847B053224ABD62B00B96CAE /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B053124ABD62B00B96CAE /* WorldCupViewController.swift */; };
 		847B053524ABD8A700B96CAE /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B053424ABD8A700B96CAE /* WorldCup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		847B04B024ABD25200B96CAE /* CampeoesDaCopaSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampeoesDaCopaSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8435598F24AD494400EB5D64 /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTableViewCell.swift; sourceTree = "<group>"; };
+		8435599124B0D76500EB5D64 /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
+		8435599324B1057900EB5D64 /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = winners.json; path = "../../../../../../../Downloads/Arquivos CampeoesDaCopa/winners.json"; sourceTree = "<group>"; };
+		847B04B024ABD25200B96CAE /* Campeões.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campeões.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847B04B324ABD25200B96CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847B04B524ABD25200B96CAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		847B04BA24ABD25200B96CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -124,7 +129,6 @@
 		847B04F624ABD36E00B96CAE /* Costa Rica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Costa Rica.png"; sourceTree = "<group>"; };
 		847B04F724ABD36E00B96CAE /* Honduras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Honduras.png; sourceTree = "<group>"; };
 		847B04F824ABD36E00B96CAE /* Dinamarca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dinamarca.png; sourceTree = "<group>"; };
-		847B052A24ABD38C00B96CAE /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winners.json; sourceTree = "<group>"; };
 		847B052F24ABD5D700B96CAE /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
 		847B053124ABD62B00B96CAE /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
 		847B053424ABD8A700B96CAE /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
@@ -152,7 +156,7 @@
 		847B04B124ABD25200B96CAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				847B04B024ABD25200B96CAE /* CampeoesDaCopaSwift.app */,
+				847B04B024ABD25200B96CAE /* Campeões.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,7 +179,7 @@
 		847B04C724ABD33F00B96CAE /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				847B052A24ABD38C00B96CAE /* winners.json */,
+				8435599324B1057900EB5D64 /* winners.json */,
 				847B04F324ABD36D00B96CAE /* África do Sul.png */,
 				847B04E824ABD36D00B96CAE /* Alemanha Ocidental.png */,
 				847B04D024ABD36B00B96CAE /* Alemanha Oriental.png */,
@@ -241,8 +245,10 @@
 		847B053324ABD63A00B96CAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8435599124B0D76500EB5D64 /* GamesTableViewCell.swift */,
 				847B052F24ABD5D700B96CAE /* WinnersTableViewController.swift */,
 				847B053124ABD62B00B96CAE /* WorldCupViewController.swift */,
+				8435598F24AD494400EB5D64 /* WorldCupTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -272,7 +278,7 @@
 			);
 			name = CampeoesDaCopaSwift;
 			productName = CampeoesDaCopaSwift;
-			productReference = 847B04B024ABD25200B96CAE /* CampeoesDaCopaSwift.app */;
+			productReference = 847B04B024ABD25200B96CAE /* Campeões.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -337,7 +343,7 @@
 				847B04FE24ABD36E00B96CAE /* Uruguai.png in Resources */,
 				847B052224ABD36E00B96CAE /* Suécia.png in Resources */,
 				847B050824ABD36E00B96CAE /* Inglaterra.png in Resources */,
-				847B052B24ABD38C00B96CAE /* winners.json in Resources */,
+				8435599424B1057900EB5D64 /* winners.json in Resources */,
 				847B051D24ABD36E00B96CAE /* Bulgária.png in Resources */,
 				847B04FF24ABD36E00B96CAE /* Austrália.png in Resources */,
 				847B051A24ABD36E00B96CAE /* Turquia.png in Resources */,
@@ -379,6 +385,8 @@
 				847B053024ABD5D700B96CAE /* WinnersTableViewController.swift in Sources */,
 				847B04B424ABD25200B96CAE /* AppDelegate.swift in Sources */,
 				847B053524ABD8A700B96CAE /* WorldCup.swift in Sources */,
+				8435599224B0D76500EB5D64 /* GamesTableViewCell.swift in Sources */,
+				8435599024AD494400EB5D64 /* WorldCupTableViewCell.swift in Sources */,
 				847B053224ABD62B00B96CAE /* WorldCupViewController.swift in Sources */,
 				847B04B624ABD25200B96CAE /* SceneDelegate.swift in Sources */,
 			);
@@ -531,7 +539,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafaela.CampeoesDaCopaSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Campeões";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -548,7 +556,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafaela.CampeoesDaCopaSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Campeões";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
